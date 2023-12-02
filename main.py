@@ -2,6 +2,8 @@ import socket
 import time
 from datetime import datetime
 import requests
+from myserver import server_on
+
 
 # ฟังก์ชันตรวจสอบสถานะของเครื่อง server
 def check_server_status(ip, port):
