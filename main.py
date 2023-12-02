@@ -73,6 +73,7 @@ while True:
       ip: "online" if check_server_status(ip, server_port) else "offline"
       for ip in server_ips
   }
-
+    
+  server_on()
   # หยุดทำงาน 5 นาที
   time.sleep(300)
